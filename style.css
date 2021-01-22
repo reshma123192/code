@@ -1,0 +1,91 @@
++*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(web4.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    
+
+
+}
+.manu-bar{
+    background-color:purple;
+    text-align: center;
+    
+    
+}
+.manu-bar ul 
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.manu-bar ul li{
+    
+    margin: 15px;
+    padding: 15px;
+}
+.manu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active,.manu-bar ul li:hover
+{
+background:rebeccapurple;
+border-radius: 3px;
+}
+.manu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-manu-1
+{
+    display: none;
+
+}
+.manu-bar ul li:hover .sub-manu-1
+{
+    display: block;
+    position: absolute;
+    background:purple;
+    margin-top: 15px;
+    margin-left: -15px; 
+    color: #fff;  
+
+}
+.manu-bar ul li:hover .sub-manu-1 ul
+{
+    display:block;
+    margin: 10px;
+}
+.manu-bar ul li:hover .sub-manu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.manu-bar ul li:hover .sub-manu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.sub-manu-2
+{
+    display: none;
+}
+.manu-bar ul li:hover .sub-manu-2
+{
+    display: block;
+    position: absolute;
+    background:purple;
+    margin-top: 15px;
+    margin-left: -15px; 
+    color: #fff;  
+}
